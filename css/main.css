@@ -11,6 +11,11 @@ html {
 }
 
 body {
+  margin: 0;
+}
+
+main {
+  overflow: hidden;
   margin: 1.5rem;
 }
 
@@ -32,16 +37,16 @@ img {
   width: 100px;
 }
 
-h2, p {
+h3, p {
   margin: 0;
 }
 
-h2 {
+h3 {
   font-size: 1rem;
   margin-top: 1.5rem;
 }
 
-h2 + p {
+h3 + p {
   font-style: italic;
   font-size: .875rem;
 }
@@ -52,9 +57,25 @@ a {
   text-decoration: none;
   border: 3px solid;
   border-radius: 8px;
-  padding: 0.4em 0.75em 0.3em;
-  color: #fff;
+  padding: .4em .75em .3em;
+  color: #f2f2f2;
   background-color: #333;
   border-color: #333;
   margin-top: 1.5rem;
+}
+
+.book1 {
+  background-color: #e2e2e2;
+}
+
+.book2 {
+  background-color: #ccc;
+}
+
+.book3 {
+  background-color: #aaa;
+}
+
+.book4 {
+  background-color: #999;
 }
